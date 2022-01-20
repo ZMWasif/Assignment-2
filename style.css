@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* <!-- Title and Image Start--> */
+.Top-title {
+  padding-top: 87px;
+  padding-left: 120px;
+}
+.title-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.title-details {
+  padding-left: 120px;
+}
+.title {
+  font-size: 2em;
+}
+.title-color {
+  color: #e07c24;
+}
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(#fed54a, #ff9347);
+  padding: 10px 40px;
+  color: black;
+  font-weight: 700;
+  border-radius: 5px;
+}
+.camera {
+  width: 440px;
+  height: 414px;
+  padding-left: 133px;
+  margin-left: 133px;
+}
+.camera:hover {
+  transform: rotate(360deg);
+  transition: transform 1.5s ease-in-out;
+}
+hr {
+  border: 2px solid #d1d1d1;
+  margin-top: 50px;
+}
+/* -- Title and Image End-- */
+
+/* Popular Collection Start */
+.collection-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 24px;
+}
+.collections-title {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.fa-star {
+  font-size: 12px;
+}
+.fa-star.filled {
+  color: #ffc014;
+}
+.fa-star.empty {
+  color: #aeaeae;
+}
+.collection-details {
+  color: #9f9f9f;
+  font-size: 12px;
+}
+.collection {
+  border-radius: 10px;
+  padding-bottom: 20px;
+  padding-left: 14px;
+  padding-top: 14px;
+  padding-right: 14px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-image: #cad5e2;
+  box-shadow: 5px 5px 5px 5px rgb(151, 121, 140);
+}
+.half-width {
+  width: 70%;
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-right: 5%;
+}
+.half-width img {
+  width: 100%;
+}
+.collection-container {
+  padding-left: 60px;
+}
+.link-button2 {
+  text-decoration: none;
+  color: #ff9347;
+  padding-left: 1330px;
+  font-weight: 700;
+}
